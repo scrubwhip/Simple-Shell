@@ -8,7 +8,7 @@ As shown in the photos below, this simple slsh (sam leggett shell) executes basi
 
 ### cd, ls, pwd
 
-<img src="Images/cdlspwd.png">
+<img src="Images/cslspwd.png">
 
 ### mkdir
 
