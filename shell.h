@@ -13,7 +13,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-#define SHELL_PROMPT "thsh$ "
+#define SHELL_PROMPT "slsh$ "
 
 #define SUCCESS 0
 #define ERROR -1
