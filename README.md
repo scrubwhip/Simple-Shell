@@ -18,7 +18,7 @@ As shown in the photos below, this simple slsh (sam leggett shell) executes basi
 
 <img src="Images/touch.png">
 
-### cat, vim
+### cat
 
 <img src="Images/cat.png">
 
