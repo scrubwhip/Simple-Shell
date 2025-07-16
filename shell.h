@@ -25,15 +25,9 @@
 // Disallow exec*p* variants, lest we spoil the fun
 #pragma GCC poison execlp execvp execvpe
 
-/**
- * Represents a shell command
- *
- * For example, "ls -la" would be represented as argc: 2 and argv: {"ls", "-la",
- * NULL}. Note that argv is NULL-terminated.
- */
-typedef struct {
-    int argc;
-    char** argv;
+typedef struct {	// Struct to represent a user command
+    int argc;		// Number of arguments in command
+    char** argv;	// Null-terminated array of strings representing individual arguments
 } command;
 
 /**
